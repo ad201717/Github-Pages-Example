@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+### 博客配置
 
-You can use the [editor on GitHub](https://github.com/ad201717/blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+对应IP地址：185.199.111.153
+阿里云域名配置：
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A	@	默认  185.199.111.153
 
-### Markdown
+A	www	默认  185.199.111.153
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 撰写博文
 
-```markdown
-Syntax highlighted code block
+要发表的文章一般以 **Markdown** 的格式放在这里`_posts/`，你只要看看这篇模板里的文章你就立刻明白该如何设置。
 
-# Header 1
-## Header 2
-### Header 3
+yaml 头文件长这样:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+---
+layout:     post
+title:      博客标题
+subtitle:   小标题
+date:       发表日期
+author:     作者
+header-img: 博客头背景图片
+catalog: 	 true
+tags:
+    - 博客所属的标签
+---
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ad201717/blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+博客内容---
